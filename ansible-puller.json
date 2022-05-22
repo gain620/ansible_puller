@@ -1,5 +1,10 @@
 {
   "http-listen-string": "127.0.0.1:31836",
   "sleep": 1,
-  "start-disabled": true
+  "start-disabled": true,
+  "ansible-inventory": ["inventories/production", "inventories/staging"],
+  "playbook": "site.yml",
+  "artifactory-url" : "http://127.0.0.1:8088/artifactory",
+  "artifactory-repo" : "ansible-generic",
+  "artifactory-token" : ""
 }
